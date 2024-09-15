@@ -83,7 +83,7 @@ public class ConvertDecimalToRoman {
     int decimal = 0;
     int i = 0;
 
-    while (romanNumber.length() > 0) {
+    while (!romanNumber.isEmpty()) {
       String symbol = romanSymbols[i];
       if (romanNumber.startsWith(symbol)) {
         decimal += values[i];
