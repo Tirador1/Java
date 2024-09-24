@@ -1,4 +1,4 @@
-package examples;
+package methods;
 
 public class StringProcessor {
   public static final String INPUT_DATA = "Login;Name;Email" + System.lineSeparator() +

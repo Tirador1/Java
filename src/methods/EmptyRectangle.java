@@ -1,7 +1,8 @@
-package examples;
+package methods;
 
 import java.util.Arrays;
 import java.util.Scanner;
+
 public class EmptyRectangle {
 
   public static void main(String[] args) {
@@ -19,8 +20,8 @@ public class EmptyRectangle {
     for (int i = 0; i < height; i++) {
       Arrays.fill(rectangle[i], '*');
     }
-    for(int i = 1; i < height - 1; i++) {
-      for(int j = 1; j < width - 1; j++) {
+    for (int i = 1; i < height - 1; i++) {
+      for (int j = 1; j < width - 1; j++) {
         rectangle[i][j] = ' ';
       }
     }
